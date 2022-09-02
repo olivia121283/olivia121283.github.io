@@ -1,0 +1,108 @@
+
+
+.header{
+  margin-top: 100px;
+  vertical-align: center;
+}
+.imageBox{
+  width: 34%;
+  display: inline-block;
+  background-color: pink;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+.imageBox img{
+  width: 200px;
+  height: 200px;
+  margin-left: 270px;
+}
+.titles{
+  margin-bottom: 10px;
+  width: 60%;
+  display: inline-block;
+  position: absolute;
+  padding-top: 50px;
+  text-align: center;
+}
+.titles h1{
+  font-size: 40px;
+ 
+}
+.titles h2{
+  font-size: 20px;
+}
+.obj{
+  
+  margin:10px;
+  padding: 20px;
+  width: 40%;
+  height: 200px;
+  display: inline-block; 
+  color: black;
+  font-size: 15px;
+  
+}
+.obj h3{
+  color:pink;
+}
+.exp{
+  margin:10px;
+  padding: 20px;
+  width: 40%;
+  height: 200px;
+  color: black;
+  display: inline-block;
+}
+.exp h3{
+  color:pink;
+}
+.habilidad{
+  margin:10px;
+  padding: 20px;
+  width: 40%;
+  height: 200px;
+  color: black;
+  display: inline-block;
+}
+.habilidad h3{
+  color:pink;
+}
+.dato{
+  margin:10px;
+  padding: 20px;
+  width: 40%;
+  height: 200px;
+  color: black;
+  display: inline-block;
+}
+.dato h3{
+  color:pink;
+}
+.esc{
+  margin:10px;
+  padding: 20px;
+  width: 40%;
+  height: 200px;
+  color: black;
+  display: inline-block;
+}
+.esc h3{
+  color:pink;
+}
+footer{
+  height: 50px;
+  background-color: pink;
+  width: 100%;
+  text-align: center;
+}
+footer img{
+  width: 50px;
+}
+
+@media screen and (max-width: 500px){
+  .container-box{
+    width:100%
+  }
+ 
+}
+
