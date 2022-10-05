@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body>
+  <div class="p-3 mb-2 bg-primary text-white py-35  align-items-center" style="height:800px" atyle="width:200px" >
+  <h1>Bienvenido a tu cuenta</h1>
+  <br>
+  <div class="saldo" >
+  <label for="">Saldo Disponible</label>
+  <input class="border border-primary rounded-1" type="text" name="cantidad" id="saldo" value="">
+  <label for="">Saldo Actual:</label>
+  <input class="border border-primary rounded-1" type="text" name="cantidadA" id="saldo1" value=""> 
+  <form action="">
+  </div>
+  <div class="">
+    <br>
+    <h2>Operar</h2>
+    <br>
+    <input class="border border-primary rounded-1" type="text" name="" id="abono" placeholder="Monto">
+    <input type="button" class="btn btn-warning" type="button" value="Consultar Saldo" onclick="checkBalance()">
+    <input type="button" class="btn btn-success" type="button" value="Ingresar Monto" onclick="paymentEvent()">
+    <input type="button" class="btn btn-danger" type="button" value="Retirar Monto" onclick="removeEvent()">
+    <input type="button" class="btn btn-secondary" type="button" value="Salir" onclick="closeSession()">
+  </form>
+</div>
+</div>
+<script src="bienvenido.js"/>
+</body>
+</html>
