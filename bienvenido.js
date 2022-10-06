@@ -1,12 +1,7 @@
 let userLoggedIn;
 
-function addAllEventListener() {
-  const button1 = document.getElementById('pay')
-
-  button1.addEventListener('click', paymentEvent);
-}
-
 function loadUserLoggedIn() {
+
   const userFromLS = localStorage.getItem('userLoggedIn');
 
   if(!userFromLS) {
