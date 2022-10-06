@@ -66,7 +66,6 @@ function checkBalance(){
  }
 
 loadUserLoggedIn(); // Carga el usuario en sesion desde el localstorage
-addAllEventListener(); // Agrega todos los eventos que necesitaremos
 
 
 
