@@ -10,7 +10,7 @@ function loadUserLoggedIn() {
   const userFromLS = localStorage.getItem('userLoggedIn');
 
   if(!userFromLS) {
-    window.location.replace("http://localhost:5500")
+    window.location.replace("./")
     return;
   }
 
