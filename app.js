@@ -50,7 +50,7 @@ function checkIfUserIsLoggedIn() {
   const userFromLS = localStorage.getItem('userLoggedIn');
 
   if(userFromLS) {
-    window.location.replace("http://localhost:5500/Bienvenidos.html")
+    window.location.replace('./Bienvenidos.html')
   }
 
 }

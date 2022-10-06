@@ -25,7 +25,7 @@ function loadUserData(){
 
 function closeSession(){
   localStorage.clear('userLoggedIn');
-  window.location.replace("http://localhost:5500")
+  window.location.replace("./")
 }
 
 function paymentEvent() {
