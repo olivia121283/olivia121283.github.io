@@ -36,7 +36,7 @@ function login(form){
   if(isUserIsValid(name, password)) {
     const user = findUserByName(name, password)
     localStorage.setItem('userLoggedIn', JSON.stringify(user))
-    window.location.replace('http://localhost:5500/Bienvenidos.html')
+    window.location.replace('./Bienvenidos.html')
     return;
   }
 
